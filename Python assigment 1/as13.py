@@ -1,0 +1,20 @@
+n=int(input())
+i=1
+p=1
+ip=1
+mp=0
+mip=0
+while(n!=0):
+    if(i%2==0):
+        mp=mp+n%10*p
+        p*=10
+    else:
+        mip=mip+n%10*ip
+        ip*=10
+    i+=1
+    n//=10
+if(i%2!=0):
+    print(mp)
+else:
+    print(mip)
+#am format doua numere care vor afisa valori dupa numarul de cifre a lui n pentru a respecta cerinta
