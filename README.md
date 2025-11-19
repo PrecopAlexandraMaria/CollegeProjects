@@ -1,7 +1,7 @@
 # PythonProjects
 My college python projects
 
-Assigment 1:
+#Assigment 1:
 1.1) Compute the control digit of an integer by summing up its digits, then summing up the digits of the sum, so on, until a sum of only one digit is obtained.
     e.g. The control digit of integer number 1971 is 9 (1971 → 18 → 9).
 
@@ -18,7 +18,7 @@ Assigment 1:
     e.g. 1235 is special (1235=1225+10)
 
 
-Assigment 2:
+#Assigment 2:
 A math teacher needs a program to help students test different number properties. The program manages an array of numbers and allows students to use the following features offered by the program:
 1. Add numbers in the array
 1.1) add(my_list, value) - value as last element of my_list
@@ -53,7 +53,7 @@ A math teacher needs a program to help students test different number properties
 6.1) undo() - undo the last operation that modified the array
 
 
-Assigment 4:
+#Assigment 4:
 A math teacher needs a program that helps students perform different vector 
 operations.
 Assignment 4 (A4) Solving complex problems with Python
@@ -126,3 +126,25 @@ value.
 
 3rd. Iteration
 Implement all features from iteration 1 using special libraries e.g. numpy
+
+#Assigment 5:
+Considering an airport, there are several planes (identified by name/number, airline 
+company, number of seats, destination, list of passengers) and each plane has certain 
+passengers (identified by first name, last name and passport number).
+1. Develop an application to allow CRUD operations on Passenger and Plane .
+2. The application should be layered, tested and validated.
+3. Sort the passengers in a plane by last name
+4. Sort planes according to the number of passengers
+5. Sort planes according to the number of passengers with the first name starting 
+with a given substring
+6. Sort planes according to the string obtained by concatenation of the number of 
+passengers in the plane and the destination
+7. Identify planes that have passengers with passport numbers starting with the 
+same 3 letters
+8. Identify passengers from a given plane for which the first name or last name 
+contain a string given as parameter
+9. Identify plane/planes where there is a passenger with given name
+10. Form groups of k passengers from the same plane but with different last names 
+k is a value given by the user)
+11. Form groups of k planes with the same destination but belonging to different 
+airline companies (k is a value given by the user)
